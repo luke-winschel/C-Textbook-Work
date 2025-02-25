@@ -50,12 +50,12 @@ Chapter 3: Expressions and Interactivity
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 Chapter 4: Making Decisions
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-*Exercise 4: Areas of Rectangles
+* Exercise 4: Areas of Rectangles
     The area of a rectangle is the rectangle’s length times its width. Write a program that
     asks for the length and width of two rectangles. The program should tell the user which
     rectangle has the greater area, or if the areas are the same.
 
-*Exercise 13: Book Club Points
+* Exercise 13: Book Club Points
     Serendipity Booksellers has a book club that awards points to its customers based on
     the number of books purchased each month. The points are awarded as follows:
     • If a customer purchases 0 books, he or she earns 0 points.
@@ -66,7 +66,7 @@ Chapter 4: Making Decisions
     Write a program that asks the user to enter the number of books that he or she has
     purchased this month and then displays the number of points awarded.
     
-*Exercise 23: Geometry Calculator
+* Exercise 23: Geometry Calculator
     Write a program that displays the following menu:
     Geometry Calculator
       1. Calculate the Area of a Circle
