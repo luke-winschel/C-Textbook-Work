@@ -24,7 +24,6 @@ Chapter 2: Introduction to C++
     Write a program that holds the prices of the five items in five variables. Display each
     item’s price, the subtotal of the sale, the amount of sales tax, and the total. Assume the
     sales tax is 7%.
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 Chapter 3: Expressions and Interactivity
 -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -77,7 +76,7 @@ Chapter 4: Making Decisions
     If the user enters 1, the program should ask for the radius of the circle and then display
     its area. Use the following formula:
     area π r 2
-    Use 3.14159 for π and the radius of the circle for r . If the user enters 2, the program
+    Use 3.14159 for π and the radius of the circle for r. If the user enters 2, the program
     should ask for the length and width of the rectangle and then display the rectangle’s
     area. Use the following formula:
     area = length * width
@@ -88,3 +87,82 @@ Chapter 4: Making Decisions
     Input Validation: Display an error message if the user enters a number outside the range
     of 1 through 4 when selecting an item from the menu. Do not accept negative values
     for the circle’s radius, the rectangle’s length or width, or the triangle’s base or height.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Chapter 5: Loops and Files
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+* Exercise 1: Sum of Numbers
+    Write a program that asks the user for a positive integer value. The program should use
+    a loop to get the sum of all the integers from 1 up to the number entered. For example,
+    if the user enters 50, the loop will find the sum of 1, 2, 3, 4, … 50.
+    Input Validation: Do not accept a negative starting number.
+
+* Exercise 10: Average Rainfall.
+    Write a program that uses nested loops to collect data and calculate the average rainfall
+    over a period of years. The program should first ask for the number of years. The outer
+    loop will iterate once for each year. The inner loop will iterate twelve times, once for
+    each month. Each iteration of the inner loop will ask the user for the inches of rainfall
+    for that month.
+    After all iterations, the program should display the number of months, the total inches
+    of rainfall, and the average rainfall per month for the entire period.
+    Input Validation: Do not accept a number less than 1 for the number of years. Do not
+    accept negative numbers for the monthly rainfall.
+  
+* Exercise 22: Square Display
+    Write a program that asks the user for a positive integer no greater than 15. The pro-
+    gram should then display a square on the screen using the character ‘X’. The number
+    entered by the user will be the length of each side of the square. For example, if the
+    user enters 5, the program should display the following:
+        XXXXX
+        XXXXX
+        XXXXX
+        XXXXX
+        XXXXX
+    If the user enters 8, the program should display the following:
+        XXXXXXXX
+        XXXXXXXX
+        XXXXXXXX
+        XXXXXXXX
+        XXXXXXXX
+        XXXXXXXX
+        XXXXXXXX
+        XXXXXXXX
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Chapter 6: Functions
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+* Exercise 1: Markup
+    Write a program that asks the user to enter an item’s wholesale cost and its markup
+    percentage. It should then display the item’s retail price. For example:
+    • If an item’s wholesale cost is 5.00 and its markup percentage is 100%, then the
+        item’s retail price is 10.00.
+    • If an item’s wholesale cost is 5.00 and its markup percentage is 50%, then the item’s
+        retail price is 7.50.
+    The program should have a function named calculateRetail that receives the
+    wholesale cost and the markup percentage as arguments and returns the retail price
+    of the item.
+    Input Validation: Do not accept negative values for either the wholesale cost of the
+    item or the markup percentage.
+  
+*  Exercise 8: Coin Toss
+    Write a function named coinToss that simulates the tossing of a coin. When you call
+    the function, it should generate a random number in the range of 1 through 2. If the
+    random number is 1, the function should display “heads.” If the random number is 2,
+    the function should display “tails.” Demonstrate the function in a program that asks
+    the user how many times the coin should be tossed and then simulates the tossing of
+    the coin that number of times.
+   
+*  Exercise 13: Days Out
+    Write a program that calculates the average number of days a company’s employees
+    are absent. The program should have the following functions:
+    • A function called by main that asks the user for the number of employees in
+        the company. This value should be returned as an int. (The function accepts no
+        arguments.)
+    • A function called by main that accepts one argument: the number of employees in
+        the company. The function should ask the user to enter the number of days each
+        employee missed during the past year. The total of these days should be returned as
+        an int.
+    • A function called by main that takes two arguments: the number of employees in
+        the company and the total number of days absent for all employees during the year.
+        The function should return, as a double, the average number of days absent. (This
+        function does not perform screen output and does not ask the user for input.)
+    Input Validation: Do not accept a number less than 1 for the number of employees. Do
+    not accept a negative number for the days any employee missed.
