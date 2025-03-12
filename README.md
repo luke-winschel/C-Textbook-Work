@@ -57,11 +57,11 @@ Chapter 4: Making Decisions
 * Exercise 13: Book Club Points
     Serendipity Booksellers has a book club that awards points to its customers based on
     the number of books purchased each month. The points are awarded as follows:
-    • If a customer purchases 0 books, he or she earns 0 points.
-    • If a customer purchases 1 book, he or she earns 5 points.
-    • If a customer purchases 2 books, he or she earns 15 points.
-    • If a customer purchases 3 books, he or she earns 30 points.
-    • If a customer purchases 4 or more books, he or she earns 60 points.
+  * If a customer purchases 0 books, he or she earns 0 points.
+  * If a customer purchases 1 book, he or she earns 5 points.
+  * If a customer purchases 2 books, he or she earns 15 points.
+  * If a customer purchases 3 books, he or she earns 30 points.
+  * If a customer purchases 4 or more books, he or she earns 60 points.
     Write a program that asks the user to enter the number of books that he or she has
     purchased this month and then displays the number of points awarded.
     
@@ -153,16 +153,54 @@ Chapter 6: Functions
 *  Exercise 13: Days Out
     Write a program that calculates the average number of days a company’s employees
     are absent. The program should have the following functions:
-    • A function called by main that asks the user for the number of employees in
+   * A function called by main that asks the user for the number of employees in
         the company. This value should be returned as an int. (The function accepts no
         arguments.)
-    • A function called by main that accepts one argument: the number of employees in
+   * A function called by main that accepts one argument: the number of employees in
         the company. The function should ask the user to enter the number of days each
         employee missed during the past year. The total of these days should be returned as
         an int.
-    • A function called by main that takes two arguments: the number of employees in
+   * A function called by main that takes two arguments: the number of employees in
         the company and the total number of days absent for all employees during the year.
         The function should return, as a double, the average number of days absent. (This
         function does not perform screen output and does not ask the user for input.)
     Input Validation: Do not accept a number less than 1 for the number of employees. Do
     not accept a negative number for the days any employee missed.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Chapter 7: Arrays
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+* Exercise 1: Largest/Smallest Array Values
+    Write a program that lets the user enter 10 values into an array. The program should
+    then display the largest and smallest values stored in the array.
+  
+* Exercise 2: Rainfall Statistics
+    Write a program that lets the user enter the total rainfall for each of 12 months into
+    an array of doubles. The program should calculate and display the total rainfall for
+    the year, the average monthly rainfall, and the months with the highest and lowest
+    amounts.
+    Input Validation: Do not accept negative numbers for monthly rainfall figures.
+  
+* Exercise 19 2D Array Operations
+    Write a program that creates a two-dimensional array initialized with test data. Use any
+    data type you wish. The program should have the following functions:
+  * getTotal . This function should accept a two-dimensional array as its argument and
+    return the total of all the values in the array.
+  * getAverage . This function should accept a two-dimensional array as its argument
+    and return the average of all the values in the array.
+  * getRowTotal . This function should accept a two-dimensional array as its first argu-
+    ment and an integer as its second argument. The second argument should be the
+    subscript of a row in the array. The function should return the total of the values in
+    the specified row.
+  * getColumnTotal . This function should accept a two-dimensional array as its first
+    argument and an integer as its second argument. The second argument should be the
+    subscript of a column in the array. The function should return the total of the values
+    in the specified column.
+  * getHighestInRow . This function should accept a two-dimensional array as its first
+    argument and an integer as its second argument. The second argument should be the
+    subscript of a row in the array. The function should return the highest value in the
+    specified row of the array.
+  * getLowestInRow . This function should accept a two-dimensional array as its first
+    argument and an integer as its second argument. The second argument should be the
+    subscript of a row in the array. The function should return the lowest value in the
+    specified row of the array.
+  Demonstrate each of the functions in this program.
